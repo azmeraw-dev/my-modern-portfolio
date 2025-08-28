@@ -18,9 +18,4 @@ Hi! I’m **Azmeraw Bitew**, a passionate **Frontend Developer**. This portfolio
 
 [View Portfolio Online](https://azmeraw-dev.github.io/my-modern-portfolio/)
 
-## 📂 How to Run Locally
 
-```bash
-git clone https://github.com/azmeraw-dev/my-modern-portfolio.git
-cd my-modern-portfolio
-open index.html in your browser
