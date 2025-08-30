@@ -10,7 +10,6 @@ let currentInput = "";
 let firstOperand = null;
 let operator = null;
 
-// Update displays
 function updateDisplay() {
   display.value = currentInput || firstOperand || "0";
   expressionDisplay.textContent = firstOperand !== null ? 
@@ -18,7 +17,6 @@ function updateDisplay() {
       : "";
 }
 
-// Append number
 numberButtons.forEach(button => {
   button.addEventListener("click", () => {
     currentInput += button.textContent;
@@ -26,7 +24,6 @@ numberButtons.forEach(button => {
   });
 });
 
-// Append decimal
 decimalButton.addEventListener("click", () => {
   if (!currentInput.includes(".")) {
     currentInput += currentInput ? "." : "0.";
@@ -34,13 +31,11 @@ decimalButton.addEventListener("click", () => {
   }
 });
 
-// Set operator and allow chaining
 operatorButtons.forEach(button => {
   button.addEventListener("click", () => {
     if (currentInput === "" && firstOperand === null) return;
 
     if (firstOperand !== null && operator !== null && currentInput !== "") {
-      // Calculate previous operation before chaining
       calculate();
     } else if (currentInput !== "") {
       firstOperand = parseFloat(currentInput);
@@ -52,7 +47,6 @@ operatorButtons.forEach(button => {
   });
 });
 
-// Calculate function
 function calculate() {
   if (firstOperand === null || operator === null || currentInput === "") return;
   const secondOperand = parseFloat(currentInput);
@@ -69,21 +63,17 @@ function calculate() {
   updateDisplay();
 }
 
-// Equals button
 equalsButton.addEventListener("click", () => {
   calculate();
   operator = null; // ready for new operation
 });
 
-// Clear button
 clearButton.addEventListener("click", () => {
   currentInput = "";
   firstOperand = null;
   operator = null;
   updateDisplay();
 });
-
-// Keyboard support
 document.addEventListener("keydown", (e) => {
   if (!isNaN(e.key)) currentInput += e.key;
   else if (e.key === ".") {
