@@ -18,4 +18,10 @@ Hi! I’m **Azmeraw Bitew**, a passionate **Frontend Developer**. This portfolio
 
 [View Portfolio Online](https://azmeraw-dev.github.io/my-modern-portfolio/)
 
+## 📬 Contact Me  
+
+- GitHub: [@azmeraw-dev](https://github.com/azmeraw-dev)  
+- LinkedIn: [Azmeraw Bitew](https://www.linkedin.com/in/azmeraw-bitew-6315b9253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnJp1ZMO8T7mIsMzrZ2HTNA%3D%3D)  
+- Email: bitewazmeraw2014@gmail.com
+
 
