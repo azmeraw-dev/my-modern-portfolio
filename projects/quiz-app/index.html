@@ -3,15 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz App</title>
+  <title>Quiz Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Simple Quiz App</h1>
-    <div id="quiz-container"></div>
-    <button id="next-btn">Next</button>
-    <p id="result"></p>
+  <div class="quiz-wrapper">
+    <h1>Ethio Telecom & Mobile Generations Quiz</h1>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <div id="quiz-container" class="quiz-container"></div>
+    <button id="next-btn" class="next-btn">Start Quiz</button>
+    <div id="result" class="result"></div>
   </div>
 
   <script src="script.js"></script>
