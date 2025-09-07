@@ -17,5 +17,5 @@ This quiz tests knowledge about **Ethio Telecom services** and **mobile network 
 - JavaScript
 
   ## 🚀 Live Demo  
-[Click here to try the Quiz App](https://Azmeraw-dev.github.io/my-modern-protofolio/projects/quiz-app/)
+[Click here to try the Quiz App](https://azmeraw-dev.github.io/my-modern-portfolio/projects/quiz-app/)
 
