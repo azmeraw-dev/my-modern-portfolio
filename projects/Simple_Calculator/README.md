@@ -6,7 +6,7 @@ This project is part of my web development learning journey and is included in m
 ---
 
 ## 🔗 Live Demo
-👉 [View Calculator](https://azmeraw-dev.github.io/my-modern-portfolio/projects/simple-calculator/)
+👉 [View Calculator](https://azmeraw-dev.github.io/my-modern-portfolio/projects/Simple_Calculator/)
 
 ---
 
@@ -26,6 +26,7 @@ This project is part of my web development learning journey and is included in m
 
 ## 📜 License
 This project is open-source and free to use.
+
 
 
 
