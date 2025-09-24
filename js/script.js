@@ -8,7 +8,7 @@ const navItems = document.querySelectorAll('nav .nav-links li a');
 
 navItems.forEach(link => {
   link.addEventListener('click', (e) => {
-    e.preventDefault(); // prevent default anchor behavior
+    e.preventDefault(); 
     const targetId = link.getAttribute('href').substring(1);
     const targetSection = document.getElementById(targetId);
 
