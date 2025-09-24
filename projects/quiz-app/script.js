@@ -53,10 +53,8 @@ function loadQuestion() {
   quizContainer.innerHTML = "";
   const q = quizData[currentQuestion];
 
-  // Update progress bar
   progressBar.style.width = `${((currentQuestion) / quizData.length) * 100}%`;
 
-  // Question counter
   const counterEl = document.createElement("p");
   counterEl.textContent = `Question ${currentQuestion + 1} of ${quizData.length}`;
   counterEl.style.fontWeight = "bold";
